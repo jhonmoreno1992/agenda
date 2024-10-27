@@ -7,7 +7,7 @@ class Conexion{
     private $password = 'jhon2772';
     public $conn;
 
-    public function getConexion(){
+    public function getConection(){
         $this->conn = null;
 
         try {
